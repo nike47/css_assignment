@@ -8,7 +8,9 @@ body {
 	background: #F5F5F5;
 	
 }
-
+.prob{
+	margin-top:-35px;
+}
 
 #optional{
     display: none;
@@ -16,12 +18,12 @@ body {
 
 
 .form-control {
-	border-color: #eee;
+	border-color: #008B8B;
 	min-height: 41px;
 	box-shadow: none !important;
 }
 .form-control:focus {
-	border-color: #5cd3b4;
+	border-color: #008B8B;
 }
 .form-control, .btn {        
 	border-radius: 3px;
@@ -39,7 +41,7 @@ body {
     color:#282C35;
 	display: inline-block;
 	padding: 0 30px 10px 0;
-	border-bottom: 3px solid #5cd3b4;
+	border-bottom: 3px solid #008B8B;
 }
 .signup-form form {
 	color:#282C35;
@@ -65,13 +67,13 @@ body {
     font-size: 16px;
     color:#282C35;
 	font-weight: bold;
-	background: #5cd3b4;
+	background: #008B8B;
 	border: none;
 	margin-top: 20px;
 	min-width: 140px;
 }
 .signup-form .btn:hover, .signup-form .btn:focus {
-	background: #41cba9;
+	background: #008B8B;
 	outline: none !important;
 }
 .signup-form a {
