@@ -2,7 +2,7 @@ function yesorno(that){
     if (that.value == "yes"){
         document.getElementById("optional").style.display = "block";
     }
-    else{
+    else if(that.value == "no"){
         document.getElementById("optional").style.display = "none";
     }
 }
